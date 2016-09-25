@@ -1,0 +1,50 @@
+@import "mixins";
+@import "sprite";
+@import "../../src/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../src/bower_components/components-font-awesome/scss/font-awesome.scss";
+@import "../../src/bower_components/Ionicons/scss/ionicons.scss";
+/*! add font */
+@include font-name (OpenSans-Regular);
+@include font-name (NautilusPompiliusRegular);
+
+body {
+   font-family: 'Tahoma', sans-serif;
+   background-color: #ccc;
+   text-align: center;
+}
+
+.container {
+
+   h1 {
+      font-family: 'NautilusPompiliusRegular', sans-serif;
+      font-weight: 200;
+      font-size: 30px;
+      text-shadow: 0 2px 0 #fff;
+
+   }
+   p {
+      font-family: 'Arial', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+   }
+}
+
+i {
+   margin: -13px 5px;
+}
+
+.icon-vk {
+   @include sprite($vk);
+   display: inline-block;
+   &:hover {
+      @include sprite($vk-hover);
+   }
+}
+
+.icon-tw {
+   @include sprite($tw);
+   display: inline-block;
+   &:hover {
+      @include sprite($tw-hover);
+   }
+}

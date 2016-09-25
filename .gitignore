@@ -1,0 +1,5 @@
+/node_modules
+/dist
+/.idea
+/src/bower_components
+kill-node.cmd

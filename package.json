@@ -1,0 +1,28 @@
+{
+  "name": "gulp_t_clear",
+  "version": "0.0.1",
+  "description": "new gulp templ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sergey Br",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-cssnano": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-notify": "latest",
+    "gulp-rigger": "latest",
+    "gulp-sass": "latest",
+    "gulp-strip-debug": "latest",
+    "gulp-uglify": "latest",
+    "gulp-watch": "latest",
+    "gulp.spritesmith": "latest",
+    "imagemin-pngquant": "latest",
+    "rimraf": "latest"
+  }
+}
