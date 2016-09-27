@@ -1,3 +1,4 @@
+npm install gulp bower optimize-js -g
 bower i && npm i && gulp sprites && gulp
 
 

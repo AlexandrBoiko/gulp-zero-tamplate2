@@ -1,10 +1,10 @@
 {
-   "name": "loftblog",
+   "name": "Alex",
    "version": "0.1.0",
    "dependencies": {
       "jquery": "^2.0.0",
       "bootstrap-sass": "latest",
       "components-font-awesome": "latest",
-	  "Ionicons": "ionicons#^2.0.1"
+      "Ionicons": "ionicons#^2.0.1"
    }
 }

@@ -21,11 +21,11 @@ var gulp = require('gulp'),
 var path = {
    build: {
       html: 'dist/',
-      js: 'dist/assets/js/',
-      css: 'dist/assets/css/',
-      img: 'dist/assets/img/',
-      fonts: 'dist/assets/fonts/',
-      sprite: 'dist/assets/img/sprite/',
+      js: 'dist/js/',
+      css: 'dist/css/',
+      img: 'dist/img/',
+      fonts: 'dist/fonts/',
+      sprite: 'dist/img/sprite/',
       spriteScss: 'src/style/'
    },
    src: {
